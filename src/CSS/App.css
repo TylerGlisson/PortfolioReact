@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+  background-image: linear-gradient(150deg, rgb(85, 51, 255) 15%, rgb(5, 213, 255) 70%, rgb(166, 255, 203) 94%);
+  color: white;
+  font-family: Open Sans, Segoe UI, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+.nav-link, .navBarBrand {
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+.brandDiv {
+  display: flex;
+  flex: 1;
+}
+.linksDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 2;
+}
+.mainLinks {
+  display:flex;
+  flex-direction: row;
+}
+.contactDiv {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.contactLink {
+  display: flex;
+}
+.navbar-collapse {
+  flex-direction: column;
+}
+.navbar-nav {
+  flex-direction: column;
+}
+@media (max-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+  }
+}
+.modal-dialog {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  padding: 0;
+}
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+  background-image: url(/imgs/navModalBackground.jpg);
+  background-size: 100% 100%;
+}
+.modalBody {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.modalUl {
+  padding: 0;
+}
+.modalLi {
+  display: flex;
+  justify-content: center;
+}
+.modalLinks {
+  font-family: Open Sans, Segoe UI, sans-serif; 
+  letter-spacing: .1em;
+  font-size: 16px;
+  color: black;
+}
+.closeModal {
+  margin: 20px 30px 0 0;
+}
+@media (min-width: 992px){
+.frog {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    
+}
+}
+@media (max-width: 992px){
+  .frog {
+      justify-content: center;
+      flex-direction: column;
+  }
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
