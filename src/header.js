@@ -1,5 +1,8 @@
 import React, {Component} from "react";
 import Brand from "./brand";
+import Contact from "./contact";
+import Hamburger from "./hamburger";
+import Links from "./links";
 import "./CSS/header.css";
 
 class Header extends Component {
@@ -8,6 +11,7 @@ class Header extends Component {
       <header id="header">
         <nav className="navBar">
           <Brand />
+          <Hamburger />
           <Links />
           <Contact />
         </nav>

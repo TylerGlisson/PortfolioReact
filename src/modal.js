@@ -1,17 +1,21 @@
 import React, {Component} from "react";
 import "./CSS/modal.css";
+const ClickOutComponent = require('react-onclickout');
 
-class ModalContent extends Component {
+class Modal extends ClickOutComponent {
+  onClickOut(e) {
+    alert('user clicked outside of the component!');
+  }
   render() {
+    
     return (
-      <div className="modalFade" id="navModal" role="dialog">
-        <div className="modal-dialog modal-lg">
-          <div className="modal-content">
-            <div>
-              <button type="button" className="close closeModal" data-dismiss="modal">&times;</button>
-              <h4 className="modalHeader">Modal Header</h4>
+        <div className="modal" id="navModal" role="dialog">
+          {/*  Modal content */}
+          <div className="modalContent">
+            <div className="closeDiv">
+              <button type="button" className="closeModal" onClick={this.props.unShow}><i className="fas fa-times fa-2x"></i></button>
             </div>
-            <div className="modal-body">
+            <div className="modalBody">
               <ul className="modalUl">
                 <li className="modalLi">
                   <a className="modalLinks" href="#">WHO</a>
@@ -26,9 +30,10 @@ class ModalContent extends Component {
             </div>
           </div>
         </div>
-      </div>
+    
     );
   }
 }
 
-export default ModalContent;
+
+export default Modal;

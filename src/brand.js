@@ -6,7 +6,7 @@ class Brand extends Component {
   render() {
     return (
       <div className="brandDiv">
-        <a className="navBarBrand" href="#">
+        <a className="logo" href="#">
           <img src={logo} width="97" height="97" alt="TG logo"></img> 
         </a>
       </div>

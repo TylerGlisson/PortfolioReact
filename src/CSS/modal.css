@@ -1,0 +1,59 @@
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.closeDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+
+.closeModal {
+  margin: 20px 30px 0 0;
+  border: none;
+  color: rgba(0,0,0,0.5);
+}
+.closeModal:hover {
+  color: rgba(0,0,0,0.8);
+  cursor: pointer;
+}
+.modalContent {
+  opacity: 0;
+  transition: opacity .15s linear;
+  height: auto;
+  min-height: 85%;
+  border-radius: 0;
+  background-image: url(../imgs/navModalBackground.jpg);
+  background-size: 100% 100%;
+}
+.modalBody {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.modalUl {
+  padding: 0;
+}
+.modalLi {
+  display: flex;
+  justify-content: center;
+}
+.modalLinks {
+  font-family: Open Sans, Segoe UI, sans-serif; 
+  letter-spacing: .1em;
+  font-size: 16px;
+  color: rgba(0,0,0,0.65);
+  padding: 5px;
+}
+.modalLinks:hover {
+  color: rgba(0,0,0,0.9);
+  cursor: pointer;
+}
