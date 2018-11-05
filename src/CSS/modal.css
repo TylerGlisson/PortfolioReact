@@ -10,29 +10,27 @@
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-.closeDiv {
-  display: flex;
-  justify-content: flex-end;
-  padding-bottom: 40px;
-}
-
-.closeModal {
-  margin: 20px 30px 0 0;
-  border: none;
-  color: rgba(0,0,0,0.5);
-}
-.closeModal:hover {
-  color: rgba(0,0,0,0.8);
-  cursor: pointer;
-}
 .modalContent {
-  opacity: 0;
-  transition: opacity .15s linear;
+  transition: opacity 2s linear;
   height: auto;
   min-height: 85%;
   border-radius: 0;
   background-image: url(../imgs/navModalBackground.jpg);
   background-size: 100% 100%;
+}
+.closeDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+.closeModalButton {
+  margin: 20px 30px 0 0;
+  border: none;
+  color: rgba(0,0,0,0.5);
+}
+.closeModalButton:hover {
+  color: rgba(0,0,0,0.8);
+  cursor: pointer;
 }
 .modalBody {
   display: flex;

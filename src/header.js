@@ -3,6 +3,7 @@ import Brand from "./brand";
 import Contact from "./contact";
 import Hamburger from "./hamburger";
 import Links from "./links";
+import Graphics from "./graphics";
 import "./CSS/header.css";
 
 class Header extends Component {
@@ -15,6 +16,7 @@ class Header extends Component {
           <Links />
           <Contact />
         </nav>
+        <Graphics />
       </header>
     );
   }
