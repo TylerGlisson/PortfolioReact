@@ -1,0 +1,23 @@
+.linksDiv {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: center;
+}
+.mainNav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.mainNav li {
+  text-align: center;
+}
+.navLinks {
+  color: white;
+  padding: 8px;
+}
+@media (max-width: 800px) {
+  .linksDiv {
+    display: none;  
+  }
+}

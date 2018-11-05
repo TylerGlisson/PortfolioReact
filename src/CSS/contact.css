@@ -1,0 +1,21 @@
+.contactDiv {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+@media (max-width: 800px){
+  .contactDiv {
+      display: none;
+  }
+}
+.contactUL {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.contactLink {
+  color: white;
+  padding: 8px;
+}
