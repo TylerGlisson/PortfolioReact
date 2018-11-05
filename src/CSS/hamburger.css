@@ -1,4 +1,4 @@
-.hamburger {
+.hamburgerDiv {
   display: block;
   padding-right: 20px;
 }
@@ -8,7 +8,7 @@
   color: rgba(255, 255, 255, 0.77);
 }
 @media (min-width: 800px) {
-  .hamburger {
+  .hamburgerDiv {
     display: none;
   }
 }
@@ -25,3 +25,76 @@
   border: 1px solid transparent;
   border-radius: .25rem;
 }
+
+.modalHidden {
+  transition: opacity 3s;
+  opacity: 0;
+}
+.modalInitial {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 3s;
+  position: fixed; /* Stay in place */
+  z-index: -5000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modalVisible {
+  opacity: 1;
+  z-index: 1;
+}
+.modalContent {
+  height: auto;
+  min-height: 85%;
+  border-radius: 0;
+  background-image: url(../imgs/navModalBackground.jpg);
+  background-size: 100% 100%;
+  width: 90%;
+  text-align: center;
+}
+.closeDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+.closeModalButton {
+  margin: 20px 30px 0 0;
+  border: none;
+  color: rgba(0,0,0,0.5);
+}
+.closeModalButton:hover {
+  color: rgba(0,0,0,0.8);
+  cursor: pointer;
+}
+.modalBody {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.modalUl {
+  padding: 0;
+}
+.modalLi {
+  display: flex;
+  justify-content: center;
+}
+.modalLinks {
+  font-family: Open Sans, Segoe UI, sans-serif; 
+  letter-spacing: .1em;
+  font-size: 16px;
+  color: rgba(0,0,0,0.65);
+  padding: 5px;
+}
+.modalLinks:hover {
+  color: rgba(0,0,0,0.9);
+  cursor: pointer;
+}
+
+

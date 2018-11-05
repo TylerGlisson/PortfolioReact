@@ -1,0 +1,9 @@
+.graphicsDiv {
+  display: flex;
+  justify-content: center;
+  opacity: .94;
+}
+
+.watercolor {
+  height: 75vh;
+}
