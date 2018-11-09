@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from "./header";
-import Graphics from "./graphics";
 import MainContent from "./mainContent";
 
 class App extends Component {
@@ -14,7 +13,7 @@ class App extends Component {
     return (
      <div>
        <Header />
-       <MainContent value={this.state.value}/>
+       <MainContent />
      </div> 
     );  
   }
