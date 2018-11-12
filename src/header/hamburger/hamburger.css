@@ -36,15 +36,16 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: opacity 3s;
+  transition: opacity 1500ms;
   position: fixed; /* Stay in place */
-  z-index: -5000; /* Sit on top */
+  z-index: 1; /* Sit all the way back */
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  margin-top: 70px; 
 }
 .modalVisible {
   opacity: 1;
