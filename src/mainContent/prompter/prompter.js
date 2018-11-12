@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './CSS/prompter.css';
+import './prompter.css';
 
 class Prompter extends Component {
  render() {
