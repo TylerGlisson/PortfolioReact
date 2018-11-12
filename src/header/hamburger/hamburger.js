@@ -1,6 +1,5 @@
 import React, {Component} from "react";
-import Modal from "./modal";
-import "./CSS/hamburger.css";
+import "./hamburger.css";
 
 class Hamburger extends Component {
   constructor(props) {

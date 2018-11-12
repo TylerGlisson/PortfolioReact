@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './CSS/gridBuilder.css';
+import './gridBuilder.css';
 
 class GridBuilder extends Component {
   makeBox = () => {

@@ -1,10 +1,10 @@
 import React, {Component} from "react";
-import Brand from "./brand";
-import Contact from "./contact";
-import Hamburger from "./hamburger";
-import Links from "./links";
-import Graphics from "./graphics";
-import "./CSS/header.css";
+import Brand from "./brand/brand";
+import Contact from "./contact/contact";
+import Hamburger from "./hamburger/hamburger";
+import Links from "./links/links";
+import Graphics from "./graphics/graphics";
+import "./header.css";
 
 class Header extends Component {
   render() {

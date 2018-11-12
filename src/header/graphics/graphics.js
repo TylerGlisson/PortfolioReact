@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './CSS/graphics.css';
-import graphics from './imgs/kariartOutline.png';
+import './graphics.css';
+import graphics from '../../imgs/kariartOutline.png';
 
 class Graphics extends Component {
   render() {

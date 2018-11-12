@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import "./CSS/brand.css";
-import logo from "./imgs/tgnew2.png"
+import "./brand.css";
+import logo from "../../imgs/tgnew2.png";
 
 class Brand extends Component {
   render() {

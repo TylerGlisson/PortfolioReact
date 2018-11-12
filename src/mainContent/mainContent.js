@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Prompter from './prompter';
-import GridBuilder from './gridBuilder';
-import './CSS/mainContent.css';
+import Prompter from './prompter/prompter';
+import GridBuilder from './gridbuilder/gridBuilder';
+import './mainContent.css';
 
 class MainContent extends Component {
   constructor(props) {

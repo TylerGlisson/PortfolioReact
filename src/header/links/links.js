@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import "./CSS/links.css";
+import "./links.css";
+
 class Links extends Component {
   render() {
     return (
