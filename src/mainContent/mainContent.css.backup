@@ -1,0 +1,5 @@
+.mainContentDiv {
+  background-color: hsla(145, 100%, 83%, 0.53);
+  background-size: 100vw 50vh;
+  height: 100vh;
+}
