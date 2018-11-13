@@ -1,5 +1,36 @@
-.mainContentDiv {
-  background-color: hsla(145, 100%, 83%, 0.53);
-  background-size: 100vw 50vh;
+.markedDiv {
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.editorDiv {
+  background: gray;
+  width: 40vw;
+  height: 90vh;
+  padding: 20px;
+}
+
+#editor {
+  background: lightblue;
+  width: inherit;
+  height: inherit;
+
+}
+
+.previewDiv {
+  background: darkgoldenrod;
+  width: 40vw;
+  height: 90vh;
+  padding: 20px;
+  
+}
+
+.preview {
+  background: lightgoldenrodyellow;
+  width: inherit;
+  height: inherit;
+  overflow: auto;
 }
