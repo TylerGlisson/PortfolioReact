@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Marked from 'react-marker';
+import Marked from 'marked';
 import './mainContent.css';
 
 let marked = require('marked');
